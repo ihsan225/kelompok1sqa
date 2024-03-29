@@ -1,6 +1,7 @@
 <?php
-
 use Illuminate\Support\Facades\Route;
+
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('');
 });
 
 Route::get('/home', function () {
@@ -25,6 +26,21 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/services', function () {
-    return view('services');
+Route::get('/register', function () {
+    return view('register');
 });
+
+Route::get('/dashboard', function () {
+    return view('/admin/dashboard');
+});
+
+
+Route::post('/proseslogin', [UserController::class, 'proseslogin'])->name('proseslogin');
+
+Route::get('/users', [UserController::class, 'index'])->name('users.index');
+Route::get('/users/create', [UserController::class, 'create'])->name('users.create');
+Route::post('/users', [UserController::class, 'store'])->name('users.store');
+Route::get('/users/{user}/edit', [UserController::class, 'edit'])->name('users.edit');
+Route::put('/users/{user}', [UserController::class, 'update'])->name('users.update');
+Route::delete('/users/{user}', [UserController::class, 'destroy'])->name('users.destroy');
+
