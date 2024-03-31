@@ -42,7 +42,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; Santechmediakom @2024</p>
+            <p>&copy; OneTect Mediakom @2024</p>
         </div>
     </footer>
 

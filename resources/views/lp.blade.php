@@ -129,13 +129,7 @@
     </div>
     <div class="content">
         <div class="container mt-5">
-            <h2>Cara Peminjaman</h2>
-            
-        </div>
-    </div>
-    <div class="content">
-        <div class="container mt-5">
-            <h2>About</h2>
+            <h2 clas="text-uppercase fw-bold">Conctact Us</h2>
             
         </div>
     </div>
