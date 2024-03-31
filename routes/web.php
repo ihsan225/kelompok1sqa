@@ -15,12 +15,12 @@ use App\Http\Controllers\UserController;
 */
 
 Route::get('/', function () {
-    return view('');
-});
-
-Route::get('/home', function () {
     return view('lp');
 });
+
+// Route::get('/home', function () {
+//     return view('lp');
+// });
 
 Route::get('/login', function () {
     return view('login');

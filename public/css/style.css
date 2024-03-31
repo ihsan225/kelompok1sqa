@@ -1,0 +1,131 @@
+/* CSS tambahan */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.navbar .navbar-logo {
+    margin-right: auto;
+}
+
+.navbar-brand img {
+    height: 40px;
+    /* Ubah sesuai kebutuhan */
+    width: auto;
+}
+
+.content {
+    min-height: 60vh;
+    /* Atur tinggi konten 80% dari viewport height */
+    padding: 50px 0;
+    /* Atur jarak atas dan bawah sesuai kebutuhan */
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* navbar scroller */
+.navbar {
+    transition: margin 0.2s; /* Efek transisi untuk perubahan padding */
+}
+
+.navbar-scrolled {
+    margin-left: 8%; /* Atur padding kiri setelah di-scroll */
+    margin-right: 8%; /* Atur padding kanan setelah di-scroll */
+    margin-top: 1%;
+}
+
+/* navbar scroller */
+
+/* desain header di lp.blade.php */
+.header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/header.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+
+  .header .btn-see-product {
+    background-color: transparent;
+    border: 2px solid #F2F0F0;
+    border-radius: 20px; /* Ubah sesuai dengan kebutuhan Anda */
+    color: #F2F0F0; /* Warna teks */
+    padding: 10px 20px; /* Atur sesuai dengan kebutuhan Anda */
+    text-decoration: none; /* Hapus underline */
+    transition: all 0.3s ease; /* Efek transisi */
+}
+
+.header .btn-see-product:hover {
+    background-color: #F2F0F0; /* Tetapkan background menjadi transparan saat hover */
+    color: #000; /* Warna teks saat hover */
+}
+
+/* desain header di lp.blade.php */
+
+/* konten 1 */
+.content1{
+    .left-content {
+        padding: 20px;
+    }
+    
+    .right-content {
+        padding: 20px;
+    }
+    
+    .right-content h3 {
+        margin-top: 0; /* Hapus margin atas pada judul */
+    }
+    
+    .right-content ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .right-content ul li {
+        margin-bottom: 10px;
+    }
+    
+    .right-content ul li i {
+        margin-right: 5px;
+        color: green; /* Warna ikon ceklis */
+    }
+    
+}
+
+/* product */
+
+.product-title {
+    position: relative;
+    display: inline-block;
+    padding-right: 10px; /* Jarak antara judul dan garis */
+}
+
+.product-title::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Jarak antara garis dengan teks */
+    left: 0;
+    width: 30%; /* Panjang garis setengah */
+    height: 3px;
+    background-color: #023859; /* Warna garis yang diinginkan */
+}
+
+/* product */
