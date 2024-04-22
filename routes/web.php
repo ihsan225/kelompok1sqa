@@ -34,6 +34,10 @@ Route::get('/dashboard', function () {
     return view('/admin/dashboard');
 });
 
+Route::get('/about', function () {
+    return view('/about');
+});
+
 
 Route::post('/proseslogin', [UserController::class, 'proseslogin'])->name('proseslogin');
 

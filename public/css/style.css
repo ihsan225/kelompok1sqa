@@ -116,6 +116,7 @@ html {
     position: relative;
     display: inline-block;
     padding-right: 10px; /* Jarak antara judul dan garis */
+    font-weight: bold;
 }
 
 .product-title::after {
@@ -129,3 +130,62 @@ html {
 }
 
 /* product */
+
+/* contact us */
+
+/* icon */
+.icon-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333; /* Warna latar belakang ikon */
+}
+
+.icon-circle svg {
+    color: white; /* Warna ikon */
+    width: 20px;
+    height: 20px;
+}
+
+.contact-title{
+    position: relative;
+    display: inline-block;
+    padding-right: 10px; /* Jarak antara judul dan garis */
+    font-weight: bold;
+}
+
+.contact-title::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Jarak antara garis dengan teks */
+    left: 0;
+    width: 30%; /* Panjang garis setengah */
+    height: 3px;
+    background-color: #023859; /* Warna garis yang diinginkan */
+}
+
+/* content-about */
+.content-about{
+    margin-top: 8%;
+}
+
+/* team */
+.team-title{
+    position: relative;
+    display: inline-block;
+    padding-right: 10px; /* Jarak antara judul dan garis */
+    font-weight: bold;
+}
+
+.team-title::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Jarak antara garis dengan teks */
+    left: 0;
+    width: 30%; /* Panjang garis setengah */
+    height: 3px;
+    background-color: #023859; /* Warna garis yang diinginkan */
+}
