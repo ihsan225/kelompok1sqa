@@ -33,6 +33,7 @@
                             <button type="submit" class="btn btn-primary">{{__('Register')}}</button>
                         </form>
                     </div>
+                    <div class="card-footer">Sudah memiliki akun? <a href="login">Login</a></div>
                 </div>
             </div>
         </div>

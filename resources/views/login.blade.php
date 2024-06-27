@@ -34,7 +34,7 @@
                             <button type="submit" class="btn btn-primary">{{__('login')}}</button>
                         </form>
                     </div>
-                    <div class="card-footer">Belum memiliki akun? <a href="register">Register<a/></div>
+                    <div class="card-footer">Belum memiliki akun? <a href="register">Register</a></div>
                 </div>
             </div>
         </div>

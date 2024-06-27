@@ -59,7 +59,7 @@
                             <h5 class="card-title">Product Name</h5>
                             <p class="card-text">Description of the product goes here. It can be a brief overview of the product's features, specifications, or any other relevant information.</p>
                             <p class="card-text"><small class="text-muted">Price: $X.XX / day</small></p>
-                            <a href="#" class="btn btn-primary">Rent Now</a>
+                            <a href="rent" class="btn btn-primary">Rent Now</a>
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
                             <h5 class="card-title">Product Name</h5>
                             <p class="card-text">Description of the product goes here. It can be a brief overview of the product's features, specifications, or any other relevant information.</p>
                             <p class="card-text"><small class="text-muted">Price: $X.XX / day</small></p>
-                            <a href="#" class="btn btn-primary">Rent Now</a>
+                            <a href="rent" class="btn btn-primary">Rent Now</a>
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                             <h5 class="card-title">Product Name</h5>
                             <p class="card-text">Description of the product goes here. It can be a brief overview of the product's features, specifications, or any other relevant information.</p>
                             <p class="card-text"><small class="text-muted">Price: $X.XX / day</small></p>
-                            <a href="#" class="btn btn-primary">Rent Now</a>
+                            <a href="rent" class="btn btn-primary">Rent Now</a>
                         </div>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
                             <h5 class="card-title">Product Name</h5>
                             <p class="card-text">Description of the product goes here. It can be a brief overview of the product's features, specifications, or any other relevant information.</p>
                             <p class="card-text"><small class="text-muted">Price: $X.XX / day</small></p>
-                            <a href="#" class="btn btn-primary">Rent Now</a>
+                            <a href="rent" class="btn btn-primary">Rent Now</a>
                         </div>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                             <h5 class="card-title">Product Name</h5>
                             <p class="card-text">Description of the product goes here. It can be a brief overview of the product's features, specifications, or any other relevant information.</p>
                             <p class="card-text"><small class="text-muted">Price: $X.XX / day</small></p>
-                            <a href="#" class="btn btn-primary">Rent Now</a>
+                            <a href="rent" class="btn btn-primary">Rent Now</a>
                         </div>
                     </div>
                 </div>
@@ -119,7 +119,7 @@
                             <h5 class="card-title">Product Name</h5>
                             <p class="card-text">Description of the product goes here. It can be a brief overview of the product's features, specifications, or any other relevant information.</p>
                             <p class="card-text"><small class="text-muted">Price: $X.XX / day</small></p>
-                            <a href="#" class="btn btn-primary">Rent Now</a>
+                            <a href="rent" class="btn btn-primary">Rent Now</a>
                         </div>
                     </div>
                 </div>
@@ -128,7 +128,7 @@
         </div>
     </div>
 
-    <div id="contact" class="content content-contact">
+    <div id="contact" class="content content-contact mb-5">
         <div class="container">
             <div class="row">
                 <!-- Kolom kiri -->

@@ -38,6 +38,10 @@ Route::get('/about', function () {
     return view('/about');
 });
 
+Route::get('/rent', function () {
+    return view('/rent');
+});
+
 
 Route::post('/proseslogin', [UserController::class, 'proseslogin'])->name('proseslogin');
 
@@ -47,4 +51,7 @@ Route::post('/users', [UserController::class, 'store'])->name('users.store');
 Route::get('/users/{user}/edit', [UserController::class, 'edit'])->name('users.edit');
 Route::put('/users/{user}', [UserController::class, 'update'])->name('users.update');
 Route::delete('/users/{user}', [UserController::class, 'destroy'])->name('users.destroy');
+
+Route::post('/logout', [UserController::class, 'logout'])->name('logout');;
+
 

@@ -49,30 +49,27 @@
             <div class="row mt-5">
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="path/to/team-image.jpg" class="card-img-top" alt="team Image">
                         <div class="card-body">
-                            <h5 class="card-title">Team Name</h5>
-                            <p class="card-text">NIM</p>
+                            <h5 class="card-title">Belinda Dwi Sukma Putri</h5>
+                            <p class="card-text">2110218</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="path/to/team-image.jpg" class="card-img-top" alt="team Image">
                         <div class="card-body">
-                            <h5 class="card-title">Team Name</h5>
-                            <p class="card-text">NIM</p>
+                            <h5 class="card-title">Burhan Wicaksono</h5>
+                            <p class="card-text">2110058</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="path/to/team-image.jpg" class="card-img-top" alt="team Image">
                         <div class="card-body">
-                            <h5 class="card-title">Team Name</h5>
-                            <p class="card-text">NIM</p>
+                            <h5 class="card-title">Ihsan Setiadi</h5>
+                            <p class="card-text">2110024</p>
                         </div>
                     </div>
                 </div>

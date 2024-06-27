@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>OneTech Mediakom</title>
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="navbar" style="background: #F2F0F0;">
-        <a class="navbar-brand navbar-logo" href="home">
+        <a class="navbar-brand navbar-logo" href="/">
             <!-- <img src="path/to/logo.png" alt="Company Logo"> -->
             <h3 class="ml-5">OneTech</h3>
         </a>
